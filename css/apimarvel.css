@@ -1,0 +1,51 @@
+body {
+  background-color: blue;
+
+}
+
+img{
+  border-radius: 8px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.textoinicial{
+
+  text-align: center;
+  color:white
+}
+
+.personajesMarvel{
+
+display: grid;
+grid-template-columns: auto auto auto auto;
+color: white;
+}
+
+.personajesMarvel > div {
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  color: white;
+}
+
+.PaginaSecundaria > div {
+
+  margin-bottom: 5%;
+  color:white;
+
+}
+
+label{
+  text-align: center;
+  color: white;
+}
+
+a{
+  text-align: center;
+  color: white;
+}

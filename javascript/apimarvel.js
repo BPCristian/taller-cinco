@@ -5,7 +5,7 @@ function consumirAPI(){
     var apikey = "bc9a33c42ae0a83d7728889cff932621";
     var ts = "1000";
     var hash = "1b805bf61e460a63d6fff6de58155085";
-    var url = 'http://gateway.marvel.com/v1/public/characters?ts=' + ts +"&apikey=" + apikey + "&hash=" + hash;
+    var url = 'https://gateway.marvel.com/v1/public/characters?ts=' + ts +"&apikey=" + apikey + "&hash=" + hash;
 
      var cabp = document.getElementById("marvel"); 
 
